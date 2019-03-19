@@ -1,6 +1,6 @@
 body{
 	background-image:url(../images/wallpaper.jpg);
-	font-family: "Courier New";
+	font-family: "Helvetica";
 }
 
 html,body{
@@ -18,6 +18,20 @@ html,body{
 .wrapper2{
 	width: 100%;
 	margin: 0px auto;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 600px) {
+  .nav a {
+    float: none;
+    width: 100%;
+  }
+  
+  .wrapper{
+	width: 100%;
+	margin: 0;
+  }
 }
 
 /*Navigation bar*/
