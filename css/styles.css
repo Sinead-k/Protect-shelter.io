@@ -196,7 +196,7 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 /*Shelters near you*/
-.btn-primary{
+a.btn.btn-primary{
 	margin-bottom:5px;
 }
 
