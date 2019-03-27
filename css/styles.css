@@ -195,6 +195,10 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+/*Shelters near you*/
+.btn-primary{
+	margin-bottom:5px;
+}
 
 /*Footer*/
 footer/*.page-footer.font-small.indigo*/{
