@@ -131,7 +131,7 @@ h2.display-4{
 	overflow: hidden;
 }
 
-.content1.row{
+.col-sm-12.col-md-6.col-lg-4.mt-3{
 	padding: 0px;
 }
 
