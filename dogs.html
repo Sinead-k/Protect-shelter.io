@@ -3,9 +3,11 @@
 	<head>
 		<title>Our Dogs</title>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initialscale=1">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> <!--Bootstrap stylesheet-->
+		<link rel="stylesheet" type="text/css" href="css/CartStyles.css">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script type="text/javascript" src="js/shop.js"></script>
 		</head>
 	<body>
 		<div class="wrapper">
@@ -57,21 +59,29 @@
 				</div>
 				<div class="col-sm-12 col-md-6 col-lg-4 mt-3">
 					<div class="card" style="">
-						<img src="images/gallery/dog 2.jpeg" class="card-img-top" alt="...">
+						<img src="images/gallery/Dog 2.jpeg" class="card-img-top" alt="...">
 						<div class="card-body">
-							<h5 class="card-title">Here's Bruno</h5>
+						<div data-name="Bruno" data-price="200">
+							<h5 class="card-title" data-name="Bruno" data-price="200">Bruno</h5>
 							<hr>
 							<p class="card-text">Bruno is here with us a year now as he has a very nervous disposition and doesn't like noise. But do not underestimate him.
 							Bruno is just shy</p>
-							<a href="#" class="btn btn-primary">Apply to Adopt</a>
+							<form class="add-to-cart" action="Adoption.html" method="post">
+						<div>
+								<label for="qty-1">ID</label>
+								<input type="text" name="qty-1" id="qty-1" class="qty" value="7863" readonly="readonly"/>
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-6 col-lg-4 mt-3">
 					<div class="card" style="">
-						<img src="images/gallery/dog 3.jpeg" class="card-img-top" alt="...">
+						<img src="images/gallery/Dog 3.jpeg" class="card-img-top" alt="...">
 						<div class="card-body">
-							<h5 class="card-title">Lorem ipsum dolor sit amet,</h5>
+							<h5 class="card-title">Hailey</h5>
 							<hr>
 							<p class="card-text">consectetur adipiscing elit. Donec vel ex vel ante condimentum egestas. Aenean mollis, dui pretium iaculis ornare, est orci fermentum lorem, at finibus lectus urna vitae risus.</p>
 							<a href="#" class="btn btn-primary">Apply to Adopt</a>
