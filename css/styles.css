@@ -26,6 +26,7 @@ html,body{
   .nav a {
     float: none;
     width: 100%;
+	
   }
   
   .wrapper{
@@ -59,10 +60,6 @@ a{
 	
 }
 
-li a:hover{
-	color: darkred;
-}
-
 
 
 /*Header image and text*/
@@ -72,6 +69,7 @@ li a:hover{
 	position: relative;
 	text-align: center;
 	padding: 0px;
+	margin-top: 2px;
 }
 .container img{
 	width: 100%;
