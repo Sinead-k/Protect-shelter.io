@@ -138,10 +138,16 @@ h2.display-4{
 	width: 70%;
 	margin: 2px auto;
 }
+
+table{
+	width: 100%;
+}
+
 /*Content page*/
 .jumbotron{
 	margin-bottom: 5px;
 	border-radius: 10px;
+	overflow: none;
 }
 
 .jumbotron.jumbotron-fluid{
