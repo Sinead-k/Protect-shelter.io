@@ -1,4 +1,4 @@
-(function() {
+function() {
 	function Shop( element ) {
 		this.element = document.querySelector( element );
 		this.init();
@@ -642,5 +642,5 @@
 })();
 
 function adoptDogButton() {
-  alert("Thank you! Your Details have been processed. We will get email you shortly");
+  alert("Thank you! Your Details have been processed. You will get email you shortly");
 }
