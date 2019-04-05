@@ -1,4 +1,4 @@
-function() {
+(function() {
 	function Shop( element ) {
 		this.element = document.querySelector( element );
 		this.init();
