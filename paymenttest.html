@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Homepage</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initialscale=1">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> <!--Bootstrap stylesheet-->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		 <link rel="stylesheet" href="css/payment.css">
+		 
+		</head>
+	<body>
+		<div class="wrapper">
+			<!--Navbar expandable -->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand" href="#">Protect</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+				  <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+				  <a class="nav-item nav-link" href="LocalShelters.html">Shelters near you</a>
+				  <a class="nav-item nav-link" href="dogs.html">Our dogs</a>
+				  <a class="nav-item nav-link" href="adoption.html">Adoption</a>
+				  <a class="nav-item nav-link" href="contact.html">Contact us</a>
+				</div>
+			  </div>
+			</nav>
+			
+			<div class="container"> <!--Header image-->
+				<img src="images/finBackground.jpg" alt="">
+				<div class="center-left"><img src="images/Logo1.gif" alt="" style="width: 50%;"></div>
+				<h4 class="headertext1"></h4>
+			</div>
+			
+			<div class="jumbotron">
+			 <main class="page payment-page">
+    <section class="payment-form dark">
+      <div class="container">
+        <div class="block-heading">
+          <h2>Payment</h2>
+          <p>Please fill in your payment details</p>
+        </div>
+        <form>
+		 <div class="products">
+            <h3 class="title">Checkout</h3>
+            <div class="item">
+              <span class="price">€200</span>
+              <p id="item-name"></p>
+            </div>
+				<div class="total">Total<span id="demoo">€200</span></div>
+			</div>
+			<br>
+			
+          <div class="card-details">
+            <h3 class="title">Credit Card Details</h3>
+            <div class="row">
+              <div class="form-group col-sm-7">
+                <label for="card-holder">Card Holder</label>
+                <input id="card-holder" type="text" class="form-control" placeholder="Card Holder" aria-label="Card Holder" aria-describedby="basic-addon1">
+              </div>
+              <div class="form-group col-sm-5">
+                <label for="">Expiration Date</label>
+                <div class="input-group expiration-date">
+                  <input type="text" class="form-control" placeholder="MM" aria-label="MM" aria-describedby="basic-addon1">
+                  <span class="date-separator">/</span>
+                  <input type="text" class="form-control" placeholder="YY" aria-label="YY" aria-describedby="basic-addon1">
+                </div>
+              </div>
+              <div class="form-group col-sm-8">
+                <label for="card-number">Card Number</label>
+                <input id="card-number" type="text" class="form-control" placeholder="Card Number" aria-label="Card Holder" aria-describedby="basic-addon1">
+              </div>
+              <div class="form-group col-sm-4">
+                <label for="cvc">CVC</label>
+                <input id="cvc" type="text" class="form-control" placeholder ="CVC" aria-label="Card Holder" aria-describedby="basic-addon1">
+              </div>
+              <div class="form-group col-sm-12">
+                <button type="button" class="btn btn-primary btn-block">Proceed</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+	  
+	  
+    </section>
+  </main>
+			</div>
+			
+				  <!-- Footer -->
+		<footer class="page-footer font-small indigo mt-2">
+
+			<!-- Footer Links -->
+			<div class="container text-center text-md-left">
+
+			  <!-- Grid row -->
+			  <div class="row">
+
+				<!-- Grid column -->
+				<div class="col-md-3 mx-auto">
+				  <h5 div class="footer-text">Protect, a non profit fictitious organisation created by Sinéad Kelly and Dylan Jacques.</h5>
+				</div>
+				<!-- Grid column -->
+
+				<hr class="clearfix w-100 d-md-none">
+
+				<!-- Grid column -->
+				<div class="col-md-3 mx-auto">
+
+				  <!-- Links -->
+				  <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+				  <ul class="list-unstyled">
+					<li>
+					  <a href="index.html">Home</a>
+					</li>
+					<li>
+					  <a href="LocalShelters.html">Shelters near you</a>
+					</li>
+					<li>
+					  <a href="dogs.html">Our dogs</a>
+					</li>
+					<li>
+					  <a href="adoption.html">Adoption</a>
+					</li>
+					<li>
+					  <a href="contact.html">Contact us</a>
+					</li>
+				  </ul>
+
+				</div>
+				<!-- Grid column -->
+			  </div>
+			  <!-- Grid row -->
+			</div>
+			<!-- Footer Links -->
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-3">© 2019 Copyright:
+			  <a href="index.html"> Protect - Student Project</a>
+			</div>
+			<!-- Copyright -->
+
+		  </footer>
+		  <!-- Footer -->
+		</div>
+		</div>
+	</body>
+	
+	<script <script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/shop.js"></script>
+</html>

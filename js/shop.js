@@ -644,3 +644,5 @@
 function adoptDogButton() {
   alert("Thank you! Your Details have been processed. You will get email you shortly");
 }
+
+document.getElementById("item-name").innerHTML = "Adoption";
