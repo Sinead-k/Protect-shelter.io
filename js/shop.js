@@ -645,7 +645,7 @@ function adoptDogButton() {
   alert("Thank you! Your Details have been processed. You will get email you shortly");
 }
 
-document.getElementById("item-name").innerHTML = "Adoption";
+document.getElementById("item-name").innerHTML = "Donation";
 document.getElementById("proceed").addEventListener("click", print);
 
 function print(){
