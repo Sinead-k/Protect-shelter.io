@@ -646,8 +646,3 @@ function adoptDogButton() {
 }
 
 document.getElementById("item-name").innerHTML = "Donation";
-document.getElementById("proceed").addEventListener("click", print);
-
-function print(){
-	alert("Your payment is being processed.");
-}
