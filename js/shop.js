@@ -646,3 +646,8 @@ function adoptDogButton() {
 }
 
 document.getElementById("item-name").innerHTML = "Adoption";
+document.getElementById("proceed").addEventListener("click", print);
+
+function print(){
+	alert("You will now be redirected to PayPal");
+}
